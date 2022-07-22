@@ -1,0 +1,362 @@
+
+/******* HEADER *******/
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.topnav {
+  width: 97%;
+  margin: 0 auto;
+}
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .topnav li {
+    float: left;
+  }
+  
+  .topnav li a {
+    display: block;
+    padding: 8px;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+  }
+  .topnav ul  {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 200;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .topnav a:hover {
+    background-color: #fff;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #fff;
+    color: white;
+  }
+  
+  .topnav .search-container {
+    float: right;
+    margin-left: 50px;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 18px;
+    font-size: 12px;
+    max-width: 100px;
+    font-weight: 500;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+    color: #000;
+    text-decoration: underline;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 0px;
+    margin-top: 20px;
+    margin-right: 5px;
+    background: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    
+  }
+  
+  .topnav .search-container button:hover {
+    background: #fff;
+    border: none;
+  }
+
+  .topnav a img{
+      width: 100%;
+      max-width: 200px;
+  }
+
+  .topnav ul li img{
+      width: 60%;
+      padding: 0 !important;
+      margin-top: -8px;
+  }
+
+  /******* MOBILE MENU *******/
+  .mobile-container {
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .top {
+    overflow: hidden;
+    position: relative;
+    width: 98%;
+    margin: 0 auto;
+  }
+  
+  .top #myLinks {
+    display: none;
+    width: 200px;
+  }
+  
+  .top a {
+    color: #000;
+    padding: 5px 0;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    display: block;
+  }
+  
+  .top a.icon {
+    color: #000;
+    font-weight:100;
+    font-family: 'Inter', sans-serif;
+    display: block;
+    font-size: 18px;
+    position: absolute;
+    float: left;
+    top: 0;
+  }
+  
+  .top a:hover {
+    color: black;
+  }
+  /******* BODY *******/
+
+  .center-img img {
+        width: 100%;
+        max-width: 400px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 100px;
+        margin-bottom:250px;
+        display: block;
+  }
+
+  .news a{
+      text-decoration: none;
+  }
+
+  .news h1{
+      text-align: center;
+      font-size: 15px;
+      font-family: 'Inter', sans-serif;
+      color: #000;
+      font-weight: 300;
+
+  }
+
+  .news{
+      margin-top: 100px;
+  }
+
+  .social {
+    font-size: 9px;
+    color: #000;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    margin-top: 100px;
+  }
+
+  .social ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social li {
+    display: inline;
+    padding: 7px;
+  }
+
+  .social a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .bottom h2 {
+    font-size: 9px;
+    color: #000;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+
+  /******* ITEMS *******/
+
+  .items img{
+      width: 100%;
+      max-width: 600px;
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+      padding: 50px 0 0 0;
+  }
+  .items .price{
+    width: 48%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 50px;
+  }
+
+  .musthave-items img{
+    width: 100%;
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding: 50px 0 0 0;
+}
+.musthave-items .price{
+  max-width: 32%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 50px;
+}
+
+  p{
+    font-size: 10px;
+    font-weight: 200;
+    font-family: 'Inter', sans-serif;
+    color: #000;
+    text-align: left;
+  }
+
+  .news-signup a {
+    text-decoration: none;
+  }
+  .news-signup h1{
+    text-align: left;
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    color: #000;
+    font-weight: 300;
+
+}
+
+.news-signup h2{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    color:darkgray;
+    font-weight: 300;
+
+}
+
+.news-signup{
+    margin-top: 100px;
+}
+
+.news-signup form{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    color:darkgray;
+    font-weight: 300;
+}
+
+.news-signup input[type=email] {
+    border: none;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    color:darkgray;
+    font-weight: 300;
+}
+.socials {
+    font-size: 10px;
+    color: #000;
+    font-weight: 300;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    margin-top: 100px;
+  }
+
+  .socials ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .socials li {
+    display: inline;
+    padding: 7px;
+  }
+
+  .socials a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  /******** FOOTER ********/
+
+  .bottom {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .footer{
+      width: 60%;
+      font-family: 'Inter', sans-serif;
+      font-size: 12px;
+      margin: 250px 0 100px;
+      font-weight: 300;
+  }
+
+  .column {
+    float: left;
+    width: 24.5%; 
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .title {
+      padding-bottom: 20px;
+  }
